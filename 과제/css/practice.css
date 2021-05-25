@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6,
+input, fieldset, legend, p, select, table, th, td, 
+tr, textarea, button, form {
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+ol {list-style-type: none;}
+
+ul {list-style-type: none;}
+
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: #000000;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;} 
+
+/* 레이아웃 */
+#wrap {
+/* background-color: rosybrown; */
+}
+
+/*************** 헤더 ****************/
+#header ul {
+    float: right;
+}
+
+#header ul>li {
+    float: left;
+    padding: 2px 5px;
+    margin: 3px 5px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+/**************** 로고 *******************/
+#logo {
+    margin: 100px auto 50px;
+    /* background-color: #bfbfbf; */
+    text-align: center;
+}
+
+.logo-alpha {
+    display: inline-block;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.red {color: rgb(234, 067, 053); letter-spacing: -13px;}
+.yellow {color: rgb(251, 188, 005); letter-spacing: -13px;}
+.green {color: rgb(052, 168, 083); letter-spacing: -13px;}
+.blue {color: rgb(066, 133, 244); letter-spacing: -13px;}
+
+/**************** 검색 *******************/
+.searchbox {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.sch {
+    width: 500px;
+    height: 30px;
+}
+
+.searchbox button, .searchbox a {
+    padding: 3px 10px;
+    background-color: #efefef;
+    border: none;
+    font-size: 16px;
+    margin: 0px 5px 0px 5px;
+}
+
+/****************** 푸터 *******************/
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #efefef;
+    text-align: center;
+
+}
+
+#footer-country {
+    border-bottom: 1px solid #bfbfbf;
+    padding: 15px 0px 15px 0px;
+}
+
+#country {
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+#footer #footer-info ul>li, #footer #footer-set ul>li {
+    float: left;
+    padding: 0px 20px;
+}
+
+#footer #footer-set ul {
+    float: right;
+}
+
+#footer-etc {
+    padding: 15px 0px 15px 0px;
+}

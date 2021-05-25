@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* 검색영역 */
+#board #search-area form {
+    text-align: right;
+}
+
+#board #search-area form input[type="text"] {
+    width: 150px;
+    height: 25px;
+}
+
+#board #search-area form button {
+    padding: 3px 5px 3px 5px;
+}
+
+/* 게시판 리스트 */
+#board #board-list {
+    margin: 0px 0px 10px 0px;
+}
+
+#board table {
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid #bfbfbf;
+
+    text-align: center;
+}
+
+#board table>thead {
+    background-color: #dddddd;
+}
+
+#board table tr {
+    height: 30px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+#board table>thead>tr>th, #board table>thead>tr>td {
+    padding: 8px 5px 8px 5px;
+}
+
+/* 페이징 */
+#board #pager {
+    text-align: center;
+}
+
+#board #pager ol {
+    width: 190px;
+    display: inline-block;
+    /* margin: 0px auto; */
+}
+
+#board #pager ol>li {
+    float: left;
+    margin: 0px 5px 0px 0px;
+}
+
+#board #pager ol>li>a.active {
+    font-size: 15px;
+    font-weight: bold;
+    color: #00f;;
+}
+
+#board #pager #btn-write {
+    float: right;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #808080;
+    background-color: #dddddd;
+    border-radius: 2px;
+}

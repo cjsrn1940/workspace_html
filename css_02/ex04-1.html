@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+
+        <style>
+
+            .btn {
+                padding: 5px 5px 5px 5px;
+                text-align: center;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .txt-center {
+                text-align: center;
+            }
+
+            .txt-top-dot {
+                border-top: 1px dotted #000000;
+            }
+
+            .txt-top-solid {
+                border-top: 1px solid #000000;
+            }
+
+            
+            table {
+                border-collapse: collapse;
+                border-top: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+            }
+
+            table>thead>tr>th {
+                background-color: #dddddd;
+            }
+
+            table>tbody>tr:hover {
+                background-color: #ffff00;
+            }
+
+            .delete {
+                background-color: #f8a1a4;
+                border: 1px solid #f47378;
+            }
+
+            .delete:hover {
+                background-color: #b21016;
+                border: 1px solid #77070b;
+            }
+
+            .save {
+                background-color: #60c5f1;
+                border: 1px solid #38b4e9;
+            }
+
+            .save:hover {
+                background-color: #007aae;
+                border: 1px solid #005174;
+            }
+
+            .correct {
+                background-color: #bfbfbf;
+                border: 1px solid #a6a6a6;
+            }
+
+            .correct:hover {
+                background-color: #808080;
+                border: 1px solid #404040;
+            }
+
+            .absolute {
+                position: absolute;
+            }
+
+            .button-right {
+                text-indent: 600px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>mysite</h1>
+        <h2>게시판</h2>
+        <h3>일반게시판</h3>
+        <h4>리스트</h4>
+
+        <table>
+
+            <colgroup>
+                <col style="width: 50px;">
+                <col style="width: 300px;">
+                <col style="width: 100px;">
+                <col style="width: 100px;">
+                <col style="width: 100px;">
+                <col style="width: 100px;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>조회수</th>
+                    <th>작성일</th>
+                    <th>관리</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="txt-center txt-top-solid">
+                    <td>123</td>
+                    <td>게시판 게시글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-5-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr class="txt-center txt-top-dot">
+                    <td>123</td>
+                    <td>게시판 게시글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-5-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr class="txt-center txt-top-dot">
+                    <td>123</td>
+                    <td>게시판 게시글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-5-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr class="txt-center txt-top-dot">
+                    <td>123</td>
+                    <td>게시판 게시글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-5-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr class="txt-center txt-top-dot">
+                    <td>123</td>
+                    <td>게시판 게시글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-5-11</td>
+                    <td>삭제</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+
+        <div class="button-right">
+            <button class="btn save">저장</button>
+            <button class="btn correct">수정</button>
+            <button class="btn delete">삭제</button>
+        </div>
+        <br><br>
+
+        
+
+    </body>
+
+</html>

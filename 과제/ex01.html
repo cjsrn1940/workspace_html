@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>hw03</title>
+    </head>
+
+    <body>
+        <form action="#" method="get">
+            <label for="txt-uid">아이디</label>
+            <input id="txt-uid" type="text" name="userid" value="" placeholder="아이디를 입력하세요">
+            <hr>
+
+            <label for="txt-psw">패스워드</label>
+            <input id="txt-psw" type="text" name="passwd" value="" placeholder="패스워드를 입력하세요">
+            <hr>
+
+            <label for="txt-name">이름</label>
+            <input id="txt-name" type="text" name="username" value="" placeholder="이름을 입력하세요">
+            <hr>
+
+            <label for="file-proimg">프로필사진</label>
+            <input id="file-proimg" type="file" name="file" value="">
+            <hr>
+
+            <label>주소</label>
+            <input id="txt-post-adress" type="text" name="post-adress" placeholder="우편번호를 입력하세요">
+            <button type="button">우편번호찾기</button> <br>
+            <input id="txt-adress" type="text" name="adress" placeholder="주소를 입력하세요">
+            <hr>
+
+            <label for="sel-telecom">이동통신사</label>
+            <select id="sel-telecom" name="telecom">
+                <option value="" selected="selected">선택하세요</option>
+                <option value="sk">SKT</option>
+                <option value="kt">KT</option>
+                <option value="lg" >LGU+</option>
+                <option value="et">기타</option>
+            </select>
+            <hr>
+
+
+            <label>나이</label>
+            <label for="rdo-teen">10대</label>
+            <input id="rdo-teen" type="radio" name="userage" value="teen" checked="checked">
+
+            <label for="rdo-twenty">20대</label>
+            <input id="rdo-twenty" type="radio" name="userage" value="twenty">
+
+            <label for="rdo-thirty">30대</label>
+            <input id="rdo-thirty" type="radio" name="userage" value="thirty">
+
+            <label for="rdo-forty">40대</label>
+            <input id="rdo-forty" type="radio" name="userage" value="forty">
+
+            <label for="rdo-etc">기타</label>
+            <input id="rdo-etc" type="radio" name="userage" value="age-etc">
+            <hr>
+
+
+
+            <label>취미</label>
+            <label for="chk-book">독서</label>
+            <input id="chk-book" type="checkbox" name="hobby" value="book" checked="checked">
+
+            <label for="chk-music">음악</label>
+            <input id="chk-music" type="checkbox" name="hobby" value="music">
+
+            <label for="chk-trip">여행</label>
+            <input id="chk-trip" type="checkbox" name="hobby" value="trip">
+
+            <label for="chk-coding">코딩</label>
+            <input id="chk-coding" type="checkbox" name="hobby" value="coding">
+
+            <label for="chk-etc">기타</label>
+            <input id="chk-etc" type="checkbox" name="hobby" value="hobby-etc">
+            <hr>
+
+
+            <label for="self-intro">자기소개</label>
+            <textarea id="self-intro" name="content" placeholder="5줄 이상 작성해주세요"></textarea>
+            <hr>
+
+
+
+
+            <button type="submit">등록</button>
+            <button type="reset">초기화</button>
+
+        </form>
+    </body>
+</html>

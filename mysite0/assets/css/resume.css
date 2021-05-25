@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#content table {
+    width: 800px;
+    border-collapse: collapse;
+    border: 1px solid #a6a6a6;
+}
+
+#content table tr, #content table td, #content table th{
+    border: 1px solid #a6a6a6;
+}

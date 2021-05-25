@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 로그인 외곽 */
+#signup {
+    float: left;
+    width: 500px;
+}
+
+/**********************************
+로그인 통합 
+***********************************/
+.entry {
+    padding: 10px 5px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.nonborder {
+    border-top: none;
+}
+
+.entry-txt {
+    width: 80px;
+    display: inline-block;
+}
+
+/* 주소 */
+#txt-adress{
+    margin: 3px 0px 0px 84px;
+    width: 300px;
+}
+
+/* 나이, 취미 */
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px 10px 0px 0px;
+}
+
+/***********************
+자기소개
+************************/
+#self-intro {
+    width: 300px;
+    height: 100px; 
+}
+
+textarea {
+    vertical-align: top;
+}
+
+/*********************
+ 버튼
+**********************/
+.btn {
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+
+.btn > button {
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}

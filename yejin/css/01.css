@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+/* 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6,
+input, fieldset, legend, p, select, table, th, td, 
+tr, textarea, button, form {
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+ol {list-style-type: none;}
+
+ul {list-style-type: none;}
+
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:active {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color: #000000;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;} 
+
+
+/* 레이아웃 */
+#wrap {
+    width: 100%;
+    background-color: antiquewhite;
+}
+#header {
+     background-color: #ff0000;
+}
+
+#nav {
+    background-color: #0000ff;
+}
+
+#sec {
+    float: left;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    background-color: #00ff00;
+}
+
+#hd {
+    height: 200px;
+    text-align: center;
+    background-color: #ff00ff;
+}
+
+#article {
+    height: 270px;
+    bottom: 0px;
+    text-align: center;
+    background-color: #9977ee;
+}
+
+#aside {
+    float: right;
+    width: 40%;
+    height: 500px;
+    text-align: center;
+    background-color: #bbbbbb;
+}
+
+#footer {
+    background-color: #ccaa00;
+}
+
+/**************** 헤더 *****************/
+
+#wrap #header h1 {
+    padding: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/****************** 네비 ******************/
+
+#wrap #nav h2{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/****************** 섹션 ******************/
+
+
+
+/***************** 푸터 *******************/
+#footer {
+    width: 100%;
+    text-align: center;
+}
